@@ -14,12 +14,10 @@ export const appRouter = createBrowserRouter([
          {
             path: '/catalog',
             element: <Catalog />,
-            children: [
-               {
-                  path: '/catalog/:id',
-                  element: <Product />,
-               },
-            ],
+         },
+         {
+            path: '/catalog/:id',
+            element: <Product />,
          },
          {
             path: '/contact',
