@@ -1,0 +1,5 @@
+export { Main } from './Main'
+export { Product } from './Product'
+export { Contact } from './Contact'
+export { Catalog } from './Catalog'
+export { About } from './About'
