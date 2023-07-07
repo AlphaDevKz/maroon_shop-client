@@ -1,4 +1,9 @@
 .root {
+   position: absolute;
+   width: 100vw;
+}
+
+.header {
    display: flex;
    justify-content: space-between;
    padding: 40px 0;

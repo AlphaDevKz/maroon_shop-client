@@ -1,0 +1,49 @@
+.root {
+   background: no-repeat center url('../../assets/main_screen.png');
+   background-size: cover;
+}
+
+.welcome {
+   padding: 130px 0 70px 0;
+   display: flex;
+   justify-content: space-between;
+   align-items: flex-start;
+}
+
+.center {
+   padding-top: 55px;
+   text-align: center;
+
+   h1 {
+      color: var(--color-first);
+      font-size: 58px;
+      font-family: Raleway;
+      font-weight: 600;
+   }
+}
+
+.catalog_link {
+   border: none;
+   cursor: pointer;
+   background: transparent;
+
+   > img {
+      border-radius: 5px;
+   }
+
+   display: flex;
+   flex-direction: column;
+   &_bottom {
+      padding-top: 15px;
+      width: 100%;
+
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      p {
+         font-size: 16px;
+         color: var(--color-first);
+      }
+   }
+}

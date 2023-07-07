@@ -1,0 +1,25 @@
+.link_card {
+   border: none;
+   cursor: pointer;
+   background: transparent;
+
+   > img {
+      border-radius: 5px;
+   }
+
+   display: flex;
+   flex-direction: column;
+   &_bottom {
+      padding-top: 15px;
+      width: 100%;
+
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      p {
+         font-size: 16px;
+         color: var(--color-first);
+      }
+   }
+}

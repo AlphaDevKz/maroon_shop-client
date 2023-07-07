@@ -1,5 +1,10 @@
 import React from 'react'
+import { Welcome } from '../../../widgets/welcome/Welcome'
 
 export const Main = () => {
-   return <div>Main</div>
+   return (
+      <section>
+         <Welcome />
+      </section>
+   )
 }
