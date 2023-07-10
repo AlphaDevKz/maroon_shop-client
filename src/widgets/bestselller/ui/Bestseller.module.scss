@@ -1,0 +1,9 @@
+.bestseller {
+   display: flex;
+   align-items: center;
+   padding-top: 40px;
+
+   &_text {
+      margin-right: 65px;
+   }
+}

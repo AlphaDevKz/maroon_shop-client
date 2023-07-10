@@ -6,7 +6,7 @@ interface PtagProps extends DetailedHTMLProps<HtmlHTMLAttributes<HTMLParagraphEl
    mode?: 'sm' | 'md' | 'lg' | 'xl'
 }
 
-export const Ptag = ({ mode = 'md', children }: PtagProps) => {
+export const Ptag = ({ mode = 'md', children, ...props }: PtagProps) => {
    return (
       <p
          className={cn(cs.root, {
@@ -15,6 +15,7 @@ export const Ptag = ({ mode = 'md', children }: PtagProps) => {
             [cs.large]: mode === 'lg',
             [cs.extra_large]: mode === 'xl',
          })}
+         {...props}
       >
          {children}
       </p>
