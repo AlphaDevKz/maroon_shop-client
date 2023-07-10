@@ -1,25 +1,15 @@
-.link_card {
+.root {
    border: none;
-   cursor: pointer;
    background: transparent;
+   cursor: pointer;
+}
 
-   > img {
-      border-radius: 5px;
-   }
+.default {
+   width: 330px;
+   height: 422px;
+}
 
-   display: flex;
-   flex-direction: column;
-   &_bottom {
-      padding-top: 15px;
-      width: 100%;
-
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-
-      p {
-         font-size: 16px;
-         color: var(--color-first);
-      }
-   }
+.product {
+   width: 230px;
+   height: 312px;
 }

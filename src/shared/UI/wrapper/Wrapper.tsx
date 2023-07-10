@@ -4,10 +4,10 @@ import cn from 'classnames'
 
 type WrapperType = {
    children: ReactNode
-   width?: 'sm' | 'md' | 'lg' | 'full'
+   width?: 'sm' | 'md' | 'lg'
 }
 
-export const Wrapper = ({ children, width = 'full' }: WrapperType) => {
+export const Wrapper = ({ children, width = 'md' }: WrapperType) => {
    return (
       <div
          className={cn(cs.root, {
@@ -17,8 +17,6 @@ export const Wrapper = ({ children, width = 'full' }: WrapperType) => {
             [cs.medium]: width === 'md',
             // 1310
             [cs.large]: width === 'lg',
-            // full
-            [cs.full]: width == 'full',
          })}
       >
          {children}
