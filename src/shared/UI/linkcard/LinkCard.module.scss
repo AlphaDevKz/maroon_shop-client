@@ -1,25 +1,41 @@
-.link_card {
+.root {
    border: none;
-   cursor: pointer;
    background: transparent;
+   cursor: pointer;
+}
 
-   > img {
-      border-radius: 5px;
+.default {
+   width: 330px;
+   height: 422px;
+}
+
+.product {
+   width: 230px;
+   height: 312px;
+}
+
+.bottom {
+   margin-top: 15px;
+   display: flex;
+   justify-content: space-between;
+}
+
+.inner {
+   height: inherit;
+   padding-bottom: 25px;
+   display: flex;
+   align-items: center;
+
+   flex-direction: column;
+   justify-content: flex-end;
+
+   p {
+      margin-top: 5px;
    }
 
-   display: flex;
-   flex-direction: column;
-   &_bottom {
-      padding-top: 15px;
-      width: 100%;
-
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-
-      p {
-         font-size: 16px;
-         color: var(--color-first);
-      }
+   span {
+      margin-top: 15px;
+      padding-bottom: 5px;
+      border-bottom: 2px solid black;
    }
 }

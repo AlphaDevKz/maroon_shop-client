@@ -1,5 +1,7 @@
-.sliderWrapper {
-   display: flex;
-   gap: 15px;
-   overflow: hidden;
+.root {
+   min-width: 0;
+}
+
+.swiperSlide {
+   flex-shrink: 1 !important;
 }

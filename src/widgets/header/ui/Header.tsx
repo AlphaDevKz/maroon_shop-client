@@ -18,7 +18,7 @@ const menuList = [
 export const Header = () => {
    return (
       <header className={cs.root}>
-         <Wrapper width='lg'>
+         <Wrapper width='md'>
             <div className={cs.header}>
                <Link to='/'>
                   <img src={logo} alt='' />
