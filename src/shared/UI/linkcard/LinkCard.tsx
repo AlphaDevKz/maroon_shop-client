@@ -2,6 +2,7 @@ import React, { ButtonHTMLAttributes, DetailedHTMLProps, ReactElement, type Reac
 import cs from './LinkCard.module.scss'
 import rightArrow from '../../../assets/right-arrow.svg'
 import cn from 'classnames'
+import { Ptag } from '../ptag/Ptag'
 
 type LinkItems = {
    id?: number
@@ -36,18 +37,18 @@ export const LinkCard = ({ items, mode, ...props }: LinkCardProps) => {
                height: '100%',
             }}
          >
-            {mode === 'default' ? <InnerSlot {...items} /> : ''}
+            {mode === 'product' ? <InnerSlot {...items} /> : ''}
          </div>
-         {mode === 'product' ? <BottomSlot {...items} /> : ''}
+         {mode === 'default' ? <BottomSlot {...items} /> : ''}
       </button>
    )
 }
 
 const InnerSlot = ({ title, description }: LinkItems) => {
    return (
-      <div>
+      <div className={cs.inner}>
          <h3>{title}</h3>
-         <p>{description}</p>
+         <Ptag mode='sm'>{description}</Ptag>
          <span>Подробнее</span>
       </div>
    )
@@ -55,7 +56,7 @@ const InnerSlot = ({ title, description }: LinkItems) => {
 
 const BottomSlot = ({ title }: LinkItems) => {
    return (
-      <div>
+      <div className={cs.bottom}>
          <h3>{title}</h3>
          <img src={rightArrow} alt='' />
       </div>

@@ -16,7 +16,7 @@ export const Slider = () => {
       <section className={cs.root}>
          <div className={cs.sliderWrapper}>
             {demoSlideList.map((item) => (
-               <LinkCard mode='product' key={item.id} items={item} innerSlot />
+               <LinkCard mode='product' key={item.id} items={item} />
             ))}
          </div>
          <div></div>

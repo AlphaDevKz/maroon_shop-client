@@ -13,3 +13,29 @@
    width: 230px;
    height: 312px;
 }
+
+.bottom {
+   margin-top: 15px;
+   display: flex;
+   justify-content: space-between;
+}
+
+.inner {
+   height: inherit;
+   padding-bottom: 25px;
+   display: flex;
+   align-items: center;
+
+   flex-direction: column;
+   justify-content: flex-end;
+
+   p {
+      margin-top: 5px;
+   }
+
+   span {
+      margin-top: 15px;
+      padding-bottom: 5px;
+      border-bottom: 2px solid black;
+   }
+}
