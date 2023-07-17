@@ -1,13 +1,13 @@
 import React from 'react'
 import cs from './Welcome.module.scss'
-import { Wrapper } from '../../shared/UI/wrapper/Wrapper'
+import { Wrapper } from '../../../../shared/UI/wrapper/Wrapper'
 
-import catalog_img_1 from '../../assets/catalog-link-1.png'
-import catalog_img_2 from '../../assets/catalog-link-2.png'
+import catalog_img_1 from '../../../../assets/catalog-link-1.png'
+import catalog_img_2 from '../../../../assets/catalog-link-2.png'
 
-import { Button } from '../../shared/UI/button/Button'
-import { Ptag } from '../../shared/UI/ptag/Ptag'
-import { LinkCard } from '../../shared/UI/linkcard/LinkCard'
+import { Button } from '../../../../shared/UI/button/Button'
+import { Ptag } from '../../../../shared/UI/ptag/Ptag'
+import { LinkCard } from '../../../../shared/UI/linkcard/LinkCard'
 
 export const Welcome = () => {
    return (

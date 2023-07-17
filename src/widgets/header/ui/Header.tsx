@@ -1,6 +1,5 @@
 import { Wrapper } from '../../../shared/UI/wrapper/Wrapper'
 import cs from './Header.module.scss'
-import { Link } from 'react-router-dom'
 
 import { RightSide } from './rightSide/RightSide'
 import { Logo } from './logo/Logo'

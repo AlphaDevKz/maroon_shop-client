@@ -1,9 +1,8 @@
-import React from 'react'
 import cs from './Bestseller.module.scss'
-import { Wrapper } from '../../../shared/UI/wrapper/Wrapper'
-import { Ptag } from '../../../shared/UI/ptag/Ptag'
-import { Slider } from '../../../shared/UI/slider/Slider'
-import { Button } from '../../../shared/UI/button/Button'
+import { Wrapper } from '../../../../../shared/UI/wrapper/Wrapper'
+import { Ptag } from '../../../../../shared/UI/ptag/Ptag'
+import { Slider } from '../../../../../shared/UI/slider/Slider'
+import { Button } from '../../../../../shared/UI/button/Button'
 
 export const Bestseller = () => {
    return (
