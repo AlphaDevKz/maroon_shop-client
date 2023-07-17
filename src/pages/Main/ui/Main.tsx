@@ -1,6 +1,6 @@
 import React from 'react'
-import { Welcome } from '../../../widgets/welcome/Welcome'
-import { Bestseller } from '../../../widgets/bestselller'
+import { Welcome } from './welcome/Welcome'
+import { Bestseller } from './bestselller'
 
 export const Main = () => {
    return (
