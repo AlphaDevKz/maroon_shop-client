@@ -1,0 +1,28 @@
+.root {
+   margin-top: 140px;
+}
+
+.subscribe {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.content {
+   max-width: 330px;
+
+   h3 {
+      font-size: 32px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 130%;
+   }
+
+   p {
+      margin-top: 30px;
+   }
+
+   button {
+      margin-top: 40px;
+   }
+}
