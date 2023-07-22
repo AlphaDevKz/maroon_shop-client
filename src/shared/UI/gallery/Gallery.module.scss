@@ -1,0 +1,9 @@
+.gallery {
+   display: grid;
+   grid-template-columns: repeat(3, 233px);
+   grid-template-rows: repeat(2, 233px);
+}
+
+.image {
+   overflow: hidden;
+}
