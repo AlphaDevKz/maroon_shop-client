@@ -1,0 +1,34 @@
+.root {
+   margin-top: 140px;
+}
+
+.block {
+   position: relative;
+   width: 670px;
+   background-color: var(--color-second);
+   padding: 100px;
+}
+
+.content {
+   max-width: 329px;
+
+   p {
+      margin-top: 15px;
+   }
+
+   button {
+      margin-top: 45px;
+   }
+}
+
+.header {
+   font-size: 32px;
+   font-weight: 500;
+   line-height: 130%;
+}
+
+.image {
+   position: absolute;
+   top: 66px;
+   right: -500px;
+}
